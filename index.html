@@ -8,8 +8,8 @@
 </head>
 <body>
     <main id="main-doc">
-        <nav id="navbar">
-            <header>Titulo navbar</header>
+        <nav class="nav" id="navbar">
+            <header class="nav__header" id="header1"><h2 class="nav__header-h2">ÍNDICE</h2></header>
             <a class="nav-link" href="#html">HTML</a>
             <a class="nav-link" href="#estructura_de_la_pagina">Estructura de la pagina</a>
             <a class="nav-link" href="#textos">Textos</a>
@@ -19,31 +19,52 @@
         </nav>
 
         <section class="main-section" id="html">
-            <header id="header">HTML</header>
-            <p></p>
-            <p></p>
-            <code></code>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <header id="header2"><h1 class="html__header-h1">HTML</h1></header>
+            <h2 class="header__h2">¿Qué es ".HTML" y para qué sirve?</h2>
+            <p class="header__p">El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos</p>
         </section>
 
         <section class="main-section" id="estructura_de_la_pagina">
-            <header id="header">Estructura de la pagina</header>
-            <p></p>
-            <p></p>
-            <code></code>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <header id="header3"><h2 class="header__h2">Estructura de la pagina</h2></header>
+                <h3 class="titulos-listas">BODY</h3>
+                <p class="parrafos-listas">El &ltbody&gt abarca toda la página y dentro de este la página se divide en: <code>&ltHeader&gt, &ltSection&gt, &ltAside&gt y &ltFooter&gt.</code></p>
+                    <ul class="tipo-Lista">
+                        <li>
+                            <h3 class="titulos-listas">HEADER</h3>
+                            <p class="parrafos-listas">Se ubica en la parte superior de la página y contiene la presentación de la misma, así como una barra de navegación (&ltnav&gt) que proporciona opciones para navegar por la página o hacia otras páginas.</p>
+                            <ul class="tipo-Lista">
+                                <li>
+                                    <h4 class="titulos-listas">NAV</h4>
+                                    <p class="parrafos-listas">Es una barra de navegación que nos manda a distintas partes de la página o a otras páginas.</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3 class="titulos-listas">MAIN</h3>
+                            <p class="parrafos-listas">El &ltmain&gt engloba el contenido principal de la página. Puede haber más de un &ltmain&gt en un documento HTML, dependiendo de la estructura de la página.</p>
+                            <ul class="tipo-Lista">
+                                <li>
+                                    <h4 class="titulos-listas">SECTION</h4>
+                                    <p class="parrafos-listas">El &ltsection&gt se utiliza para dividir la página en diferentes secciones temáticas.</p>
+                                    <ul class="tipo-Lista">
+                                        <li>
+                                            <h4 class="titulos-listas">ARTICLE</h4>
+                                            <p class="parrafos-listas">El &ltarticle&gt se usa para dividir subtemas dentro de una sección. Puede contener un encabezado (&ltheader&gt) y un pie de página (&ltfooter&gt).</p>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3 class="titulos-listas">ASIDE</h3>
+                            <p class="parrafos-listas">El &ltaside&gt representa contenido complementario o secundario. No está necesariamente ubicado al costado de un &ltarticle&gt, puede aparecer en diferentes partes de la página según su contenido.</p>
+                        </li>
+                        <li>
+                            <h3 class="titulos-listas">FOOTER</h3>
+                            <p class="parrafos-listas">También conocido como pie de página, se ubica al final de la página o al final de una sección principal. Puede contener textos pequeños, información de copyright, enlaces y opciones menos relevantes.</p>
+                        </li>
+                    </ul>
+                </div>        
         </section>
 
         <section class="main-section" id="textos">
