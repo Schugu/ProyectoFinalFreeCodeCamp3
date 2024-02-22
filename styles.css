@@ -1,3 +1,4 @@
+/* GLOBAL */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +7,6 @@
     font-size: 20px;
     scroll-behavior: smooth;
 }
-
 body {
     background: #182c4e;
     color: #fff;
@@ -22,7 +22,6 @@ body {
     background-color: #0f1e39; 
     display: flex;
     flex-direction: column;
-    
     border-right: 4px solid #00e199;
     overflow: auto;
 }
@@ -46,66 +45,40 @@ body {
 /* MAIN CONTENT*/
 .main-section {
     margin-left: 260px;
-    margin-bottom: 40px; 
-    padding: 20px;
+    margin-bottom: 10px; 
+    padding: 0 20px;
     list-style-position: inside;
+    border-bottom: 1px solid #00e199;
 }
-
 .html__header-h1 {
     text-align: center;
     font-size: 50px;
+    margin: 3rem 0 3rem 0;
+    background-color: #00e199;
 }
-
 .header__h2{
-    margin: 30px 0 20px 0;
+    margin-bottom: 10px;
     font-size: 30px;
     display: inline-block;
     border-bottom: 4px solid #00e199;
     padding-bottom: 4px;
+    padding-top: 15px;
 }
 .header__p {
     text-indent: 40px;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 .main-section a {
     text-decoration: none;
     color: #00e199;
-
 }
-
-.estructura_de_la_página {
-    border-bottom: 4px solid #00e199;
-}
-.estructuras__h3{
-    text-align: center;
-    padding: 5px;
-    margin: 20px 0;
-    border-bottom: 4px solid #00e199;
-    display: inline-block;
-
-    
-
-}
-.estructuraHtml__h4 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-.estructuraHtml {
-    border: 1px solid #00e199;
-    max-width: 15em;
-    padding: 10px;
-    height: auto;
-    margin-bottom: 20px;
-}
-
-
-
 
 /* ESTILO PARA LAS LISTAS */
 .titulos-listas {
     margin-bottom: 5px; 
     border-bottom: 1px solid #00e199;
     display: inline-block;
-    
 }
 .parrafos-listas {
     margin: 0 0 10px 20px;
@@ -114,25 +87,19 @@ body {
     padding: 0 20px 0 10px;
     text-align: left;
 }
-
 .tipo-Lista { 
     margin-left: 20px; 
     list-style-type: none;
     height: auto; 
+    margin-bottom: 50px;
 }
 .tipo-Lista li {
     margin-left: 10px; 
     padding-left: 10px; 
 }
 
-
-
-
-
-
-
-
-
+/* MEDIA QUERIES: */
+/* ESTO HACE QUE DESAPAREZCA LA BARRA DE NAVEGACIÓN EN CIERTOS DISPOSITIVOS */
 @media screen and (max-width: 700px) {
     #navbar {
         display: none;
@@ -141,10 +108,8 @@ body {
         margin-left: 0; 
         padding: 20px; 
     }
-    * {
-        scroll-behavior: auto;
-    }
 }
+/* ESTO HACE QUE LAS LISTAS SE VEAN MAS LINDAS A BAJA RESOLUCIÓN */
 @media screen and (max-width: 300px) {
     .tipo-Lista { 
         margin-left: 20px; 
@@ -158,12 +123,14 @@ body {
     .parrafos-listas {
         border-right: none;
     }
-    * {
-        scroll-behavior: auto;
-    }
-    .justify-text{
-        max-width: 100px;
-        display: none;
-        text-overflow: " [..]";
+}
+/* ESTO ACORTA EL LINK DE WPP POR QUE NO SE COMO HACER PARA QUE SE CORTE COMO UN PARRAFO */
+@media screen and (max-width: 450px) {
+    .acortar {
+        white-space: nowrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+        max-width: 200px; 
+        display: block; 
     }
 }
