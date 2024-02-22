@@ -15,19 +15,20 @@
             <a class="nav-link" href="#textos">Textos</a>
             <a class="nav-link" href="#enlaces">Enlaces</a>
             <a class="nav-link" href="#listas">Listas</a>
-            <a class="nav-link" href="#formularios">Formularios</a>
+            <a class="nav-link" href="#multimedia">Multimedia</a>
         </nav>
 
         <section class="main-section" id="html">
             <header id="header2"><h1 class="html__header-h1">HTML</h1></header>
             <h2 class="header__h2">¿Qué es ".HTML" y para qué sirve?</h2>
-            <p class="header__p">El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos</p>
+            <p class="header__p">El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos.</p>
         </section>
 
         <section class="main-section" id="estructura_de_la_pagina">
             <header id="header3"><h2 class="header__h2">Estructura de la pagina</h2></header>
-                <h3 class="titulos-listas">BODY</h3>
-                <p class="parrafos-listas">El &ltbody&gt abarca toda la página y dentro de este la página se divide en: <code>&ltHeader&gt, &ltSection&gt, &ltAside&gt y &ltFooter&gt.</code></p>
+                <div class="estructura_de_la_página">
+                    <h3 class="titulos-listas">BODY</h3>
+                    <p class="parrafos-listas">El <code>&ltbody&gt</code> abarca toda la página y dentro de este la página se divide en: <code>&ltHeader&gt, &ltSection&gt, &ltAside&gt y &ltFooter&gt.</code></p>
                     <ul class="tipo-Lista">
                         <li>
                             <h3 class="titulos-listas">HEADER</h3>
@@ -64,63 +65,370 @@
                             <p class="parrafos-listas">También conocido como pie de página, se ubica al final de la página o al final de una sección principal. Puede contener textos pequeños, información de copyright, enlaces y opciones menos relevantes.</p>
                         </li>
                     </ul>
+                </div>
+                <div class="estructuras">
+                    <h3 class="estructuras__h3">Estructuras de la página</h3>
+                    <article class="estructuraHtml">
+                        <h4 class="estructuraHtml__h4">Estructura HTML</h4>
+                        <ul class="tipo-Lista">
+                            <h5 class="titulos-listas">html</h5>
+                            <li>
+                                <h5 class="titulos-listas">body</h5>
+                                    <ul class="tipo-Lista">
+                                        <li>
+                                            <h5 class="titulos-listas">header</h5>
+                                            <ul class="tipo-Lista">
+                                                <li>
+                                                    <h5 class="titulos-listas">nav</h5>
+                                                </li>
+                                            </ul>
+                                            <h5 class="titulos-listas">header</h5>
+                                        </li>
+                                        <li>
+                                            <h5 class="titulos-listas">main</h5>
+                                                <ul class="tipo-Lista">
+                                                    <li>
+                                                        <h5 class="titulos-listas">section</h5>
+                                                        <ul class="tipo-Lista">
+                                                            <li>
+                                                                <h5 class="titulos-listas">article</h5>
+                                                            </li>
+                                                        </ul>
+                                                        <h5 class="titulos-listas">section</h5>
+                                                    </li>
+                                                </ul>
+                                        </li>
+                                        <li>
+                                            <h5 class="titulos-listas">main</h5>
+                                        </li>
+                                        <li>
+                                            <h5 class="titulos-listas">aside</h5>
+                                        </li>
+                                        <li>
+                                            <h5 class="titulos-listas">footer</h5>
+                                        </li>
+                                    </ul>
+                                <h5 class="titulos-listas">body</h5>
+                            </li>
+                            <h5 class="titulos-listas">html</h5>
+                        </ul>
+                    </article>
+
+
+                    
+                </div>
+                
+                <div class="estructura-extras">
+                    <h2 class="titulos-listas">EXTRAS:</h2>
+                    <ul class="tipo-Lista">
+                        <li>
+                            <h4 class="titulos-listas">DIV</h4>
+                            <p class="parrafos-listas">Es una etiqueta de bloque que se utiliza para agrupar contenido sin un significado semántico específico. Es útil para crear secciones de diseño o para estilizar elementos juntos.</p>
+                        </li>
+                        <li>
+                            <h4 class="titulos-listas">SPAN</h4>
+                            <p class="parrafos-listas">Es una etiqueta de línea que ocupa el espacio de su contenido. No tiene carga semántica.</p>
+                        </li>
+                        <li>
+                            <h4 class="titulos-listas">CENTER</h4>
+                            <p class="parrafos-listas">Se puede utilizar &ltcenter&gt &lt/center&gt para centrar contenido aunque es mejor hacerlo en CSS.</p>
+                        </li>
+                        <li>
+                            <h4 class="titulos-listas">ÍNDICE</h4>
+                            <p class="parrafos-listas">Para crear un índice que nos traslade dentro de la página, se le da un id a los títulos y luego se enlazan mediante &lta href="#id"&gt. También puede hacerse dentro de una lista desordenada.</p>
+                        </li>
+                        <li>
+                            <h4 class="titulos-listas">Icono:</h4>
+                            <p class="parrafos-listas">Para añadir un icono a la página, se utiliza &ltlink rel="icon" href="imagen.ico"&gt.</p>
+                        </li>
+                        <li>
+                            <h4 class="titulos-listas">HREF</h4>
+                            <p class="parrafos-listas">Se utiliza la etiqueta &lthr&gt para añadir una línea divisoria entre contenidos.</p>
+                        </li>
+                        <li>
+                            <h4 class="titulos-listas">HTML LANG</h4>
+                            <p class="parrafos-listas">Se utiliza para especificar el idioma de la página en la etiqueta HTML para mejorar el SEO.</p>
+                        </li>
+                        <li>
+                            <h4 class="titulos-listas">BR</h4>
+                            <p class="parrafos-listas">Se utiliza (&ltbr&gt) para añadir un salto de línea.</p>
+                        </li>
+                        <li>
+                            <h4 class="titulos-listas">Comentar en VSCODE:</h4>
+                            <p class="parrafos-listas">Para comentar en Visual Studio Code se utiliza (ctrl + /).</p>
+                        </li>
+                        <li>
+                            <h4 class="titulos-listas">Tabla de etiquetas HTML:</h4>
+                            <p class="parrafos-listas">Tabla periódica de las etiquetas HTML: <a href="https://lenguajehtml.com/html/introduccion/tabla-periodica-html5/" target="_blank" rel="nofollow">TABLA</a>.</p>
+                        </li>
+                        <li>
+                            <h4 class="titulos-listas">Acordeón:</h4>
+                            <p class="parrafos-listas">Para hacer un acordeón se utiliza la etiqueta &ltdetails&gt con su respectivo título &ltsummary&gt. Se puede iniciar abierto agregando el atributo open.</p>
+                        </li>
+                        <li>
+                            <h4 class="titulos-listas">Ventana emergente:</h4>
+                            <p class="parrafos-listas">(Fase de experimentación) Para crear una ventana emergente se utiliza &ltdialog&gt. Por defecto permanece oculta, pero se puede hacer aparecer agregando el atributo open.</p>
+                        </li>
+                    </ul>
                 </div>        
         </section>
 
         <section class="main-section" id="textos">
-            <header id="header">Textos</header>
-            <p></p>
-            <p></p>
-            <code></code>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <header id="header"><h3 class="titulos-listas">TEXTOS</h3></header>
+
+            <div class="textoEtiquetasBloque">
+                <ul class="tipo-Lista">
+                    <li>
+                        <h3 class="titulos-listas">Las etiquetas de texto que no completan la linea:</h3>
+                        <ul class="tipo-Lista">
+                            <li>
+                                <h4 class="titulos-listas">Etiqutas de texto:</h4>
+                                <ul class="tipo-Lista">
+                                    <li>
+                                        <h5 class="titulos-listas">B</h5>
+                                        <p class="parrafos-listas">
+                                            Se utiliza <code>"&ltb&gt TEXTO &lt/b&gt"</code> para que el texto este en negrita. EJ: <b>Negrita</b>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5 class="titulos-listas">I</h5>
+                                        <p class="parrafos-listas">
+                                            Se utiliza "&lti&gt TEXTO &lt/i&gt" para que el texto este en italica/curisva. Ej: <i>Italica / cursiva</i>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5 class="titulos-listas">U</h5>
+                                        <p class="parrafos-listas">
+                                            Se utiliza "&ltu&gt TEXTO &lt/u&gt" para que el texto este subrayado. Se sugiere que se haga con CSS. Ej: <u>Subrayado</u>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5 class="titulos-listas">STRONG</h5>
+                                        <p class="parrafos-listas">
+                                            Se utiliza "&ltstrong&gt TEXTO &lt/strong&gt" para indicar que el texto es importante. Ej: <strong>Texto importante</strong>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5 class="titulos-listas">DEL</h5>
+                                        <p class="parrafos-listas">
+                                            Se utiliza "&ltdel&gt TEXTO &lt/del&gt" Para que el texto este tachado, demostrando que esta borrado. Ej: <del>Borrado</del>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5 class="titulos-listas">S</h5>
+                                        <p class="parrafos-listas">
+                                            Se utiliza "&lts&gt TEXTO &lt/s&gt" Para que el texto este tachado, demostrando que esta incorrecto. Ej: <s>Incorrecto</s>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5 class="titulos-listas">SMALL</h5>
+                                        <p class="parrafos-listas">
+                                            Se utiliza "&ltsmall&gt TEXTO &lt/small&gt" para que el texto este en letra chiquita. Ej: <small>Letra Chiquita</small>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5 class="titulos-listas">SUP</h5>
+                                        <p class="parrafos-listas">
+                                            Se utiliza "&ltsup&gt TEXTO &lt/sup&gt" para agregar una superindice. Ej: e=mc<sup>2</sup>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5 class="titulos-listas">SUB</h5>
+                                        <p class="parrafos-listas">
+                                            Se utiliza "&ltsub&gt TEXTO &lt/sub&gt" para agregar una subindice. Ej: h2<sub>O</sub>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5 class="titulos-listas">MARK</h5>
+                                        <p class="parrafos-listas">
+                                            Se utiliza "&ltmark&gt TEXTO &ltmark&gt" para resaltar textos. Ej: <mark>Marcado</mark>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5 class="titulos-listas">EM</h5>
+                                        <p class="parrafos-listas">
+                                            Se utiliza "&ltem&gt TEXTO &ltem&gt" para indicar que el texto tiene énfasis Ej: <em>Énfasis</em>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5 class="titulos-listas">CITE</h5>
+                                        <p class="parrafos-listas">
+                                            Se utiliza "&ltcite&gt TEXTO &ltcite&gt" para indicar el autor de la cita del texto. Ej: <cite>Bosch, Martin Lautaro</cite>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5 class="titulos-listas">CODE</h5>
+                                        <p class="parrafos-listas">
+                                            Se utiliza "&ltcode&gt TEXTO &ltcode&gt"  para que el texto este en formato de codigo. Ej: <code>&ltlink rel="stylesheet" type="text/css" href="style.css"&gt</code>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5 class="titulos-listas">TIME</h5>
+                                        <p class="parrafos-listas">
+                                            Se utilizxa "&lttime&gt TEXTO &lttime&gt" para que el texto este en formato de fecha y hora. Ej: <time>19:30</time> 
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="textoEtiquetasLinea">
+                <ul class="tipo-Lista">
+                    <li>
+                    <h3 class="titulos-listas">Las etiquetas de texto que completan la linea:</h3>
+                    <ul class="tipo-Lista">
+                        <li>
+                        <h4 class="titulos-listas">Titulos</h4>
+                        <ul class="tipo-Lista">
+                            <li>
+                                <h5 class="titulos-listas">H1</h5> 
+                                <p class="parrafos-listas">
+                                Titulo importante, se pone una vez nomas. Formula: <code>"&lth1&gt TITULO &lt/h1&gt"</code>.
+                                </p>
+                            </li>
+                            <li>
+                                <h5 class="titulos-listas">H2:</h5>
+                                <p class="parrafos-listas">
+                                Titulos importantes, se pueden poner varias veces. Formula: "&lth2&gt TITULO &lt/h2&gt".
+                                </p>
+                            </li>
+                            <li>
+                                <h5 class="titulos-listas">H3:</h5>
+                                <p class="parrafos-listas">
+                                Subtitulos Importantes, se pueden poner ilimitadas veces: Formula: (&lth3&gt TITULO &lt/h3&gt)
+                                </p>
+                            </li>
+                            <li>
+                                <h5 class="titulos-listas">H4:</h5>
+                                <p class="parrafos-listas">
+                                Subtitulos Importantes, se pueden poner ilimitadas veces: Formula: (&lth4&gt TITULO &lt/h4&gt)
+                                </p>
+                            </li>
+                            <li>
+                                <h5 class="titulos-listas">H5:</h5>
+                                <p class="parrafos-listas">
+                                Subtitulos Importantes, se pueden poner ilimitadas veces: Formula: (&lth5&gt TITULO &lt/h5&gt)
+                                </p>
+                            </li>
+                            <li>
+                                <h5 class="titulos-listas">H6:</h5>
+                                <p class="parrafos-listas">
+                                Subtitulos Importantes, se pueden poner ilimitadas veces: Formula: (&lth6&gt TITULO &lt/h6&gt)
+                                </p>
+                            </li>
+                        </ul>
+                        </li>
+                    <li>
+                        <h4 class="titulos-listas">Etiquetas de texto:</h4>
+                        <ul class="tipo-Lista">
+                            <li>
+                                <h5 class="titulos-listas">BLOCKQUOTE</h5>
+                                <p class="parrafos-listas">
+                                    Se utiliza (&ltblockquote&gt TEXTO &lt/blockquote&gt) para que el texto este en formato de cita.
+                                </p>
+                            </li>
+                            <li>
+                                <h5 class="titulos-listas">P</h5>
+                                <p class="parrafos-listas">
+                                    Se utiliza (&ltp&gt TEXTO &lt/p&gt) para crear un parrafo.
+                                </p>        
+                            </li>
+                            <li>
+                                <h5 class="titulos-listas">PRE</h5>
+                                <p class="parrafos-listas">
+                                     Se utiliza (&ltpre&gt TEXTO &ltpre&gt) para que el navegador respete como escribiste el texto.
+                                </p>  
+                            </li>
+                            <li>
+                                <h5 class="titulos-listas">ADDRESS</h5>
+                                <p class="parrafos-listas">
+                                    Se utiliza (&ltAddress&gt &lt/Address&gt) para escribir información de contacto.                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>      
         </section>
 
         <section class="main-section" id="enlaces">
-            <header id="header">Enlaces</header>
-            <p></p>
-            <p></p>
-            <code></code>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <header id="header"><h2 class="header__h2">Enlaces</h2></header>
+                <ul class="tipo-Lista">
+                    <li>
+                        <p class="parrafos-listas">Se utiliza <code>(&lta href="Link"&gt Texto clickeable &lt/a&gt)</code> para redirigir a otra pagina. Ej> <a href="https://www.youtube.com/watch?v=gWo12TtN9Kk" target="_BLANK" rel="nofollow">Click aqui</a></p>
+                    </li>
+                    <li>
+                        <p class="parrafos-listas">Si queremos agregar una pagina que no sea local tenemos que agregar el protocolo: (https://ruta).</p>
+                    </li>
+                    <li>
+                        <p class="parrafos-listas">Si queremos entrar a una carpeta tendremos que poner (carpeta/ruta) y si queremos volver de una carpeta tendremos que poner (../ruta).</p>
+                    </li>
+                    <li>
+                        <p class="parrafos-listas">Si queremos abrir el link en una pestaña nueva tendremos que poner un atributo. (&lta href="Link" target="_BLANK" &gt Texto clickeable &lt/a&gt).</p>
+                    </li>
+                    <li>
+                        <p class="parrafos-listas">Cuando pongamos un enlace que no es nuestro hay que poner el atributo "rel="nofollow"" para indicar que ese sitio no es nuestro, es para el SEO.</p>
+                    </li>
+                    <li>
+                        <p class="parrafos-listas">Le podemos poner una imagen que apretar para que nos lleve al link deseado.</p>
+                    </li>
+                    <li>
+                        <p class="parrafos-listas">Para redirigir a aplicaciones podemos usar dentro del href, mailto:CORREO ELECTRONICO o tel:NUMERO DE CELULAR.</p>
+                    </li>
+                    <li>
+                        <p class="parrafos-listas justify-text">Para envier un mensaje en wpp usamos: href="https://api.whatsapp.com/send?phone=CELULAR&text=HOLA"</p>
+                    </li>
+
+
+
+
+
+                
+                
+                
+                
+                
+                 
+                
+            </p>        
         </section>
 
         <section class="main-section" id="listas">
-            <header id="header">Listas</header>
-            <p></p>
-            <p></p>
-            <code></code>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+            <header id="header"><h2 class="header__h2">Listas</h2></header>
+            <ul class="tipo-Lista">
+                <li><p class="parrafos-listas">Existen dos tipso de listas, las listas desordenadas: <code>(&ltul&gt &lt/ul&gt)</code> y las listas ordenadas por números: (&ltol&gt &lt/ol&gt).</p></li>
+                <li><p class="parrafos-listas">Para agregar contenidos a las listas hay que utilizar (&ltli&gt &lt/li&gt).</p></li>
+                <li><p class="parrafos-listas">Para que las listas ordenadas empiecen por cierto número podemos agregar un atributo "start" decirle desde que numero arrancar a contar.</p></li>
+                <li><p class="parrafos-listas">Para que la lista ordenada este en orden inverso hay que poner el atributo "reversed".</p></li>
+                <li><p class="parrafos-listas">Podemos cambiar la forma de contar de las listas agregando el atributo "type" y ahi podremos elegir cual queramos.</p></li>
+                <li><p class="parrafos-listas">Para agregar una lista de definicion se usa DL dentro de ella pondremos el titulo con DT y la definicion con DD.</p></li>
+                <li><p class="parrafos-listas">Para hacer una mejor tabla hay que poner thead (Titulos negrita) tbody (cuerpo de la tabla) y tfoot (texto descriptivo).</p></li>
+            
+            
+            
+             <br>
+             <br>
             </ul>
         </section>
 
-        <section class="main-section" id="formularios">
-            <header id="header">Formularios</header>
-            <p></p>
-            <p></p>
-            <code></code>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+        <section class="main-section" id="multimedia">
+            <header id="header"><h2 class="header__h2">Multimedia</h2></header>
+            <ul class="tipo-Lista">
+                <li><p class="parrafos-listas">Para poner una imagen se utiliza> <code>(&ltimg src="link o ruta"&gt)</code>. 
+                    Existen dos atributos para cambiar la forma de la imagen en pixeles, width (ancho) y height (largo). 
+                    Pero esto no es recomendable ya que la forma se le puede dar con CSS.
+                    Si llegamos a modificar la imagen en html no podremos modificarla en CSS.</p></li>
+                <li><p class="parrafos-listas">Se utiliza el atributo alt para describir el archivo, para el Seo, para personas con lectores de pantalla que no pueden ver, 
+                    y por si pasa algo con el archivo podes describir lo que habia allí. Este atributo es obligatorio. </p></li>
+                <li><p class="parrafos-listas">Se utiliza el atributo title para ponerle un titulo al archivo.</p></li>
+                <li><p class="parrafos-listas">Para poner un video se utiliza (&ltvideo&gt &lt/video&gt).</p></li>
+                <li><p class="parrafos-listas">Para poner un audio se utiliza (&ltaudio&gt &lt/audio&gt).</p></li>
+                <li><p class="parrafos-listas">Se utiliza "&ltfigure IMAGEN &lt/figure&lt" para poenr una figura, y dentro "&ltfigcaption&gt TEXTO &lt/figcaption&gt" para agregar texto abajo.</p></li>
+                <li><p class="parrafos-listas">Usar este formato hace que se salte de linea. Agrega valor semantico y el uso de figcaption es opcional.</p></li>
+                <li><p class="parrafos-listas"></p></li>
+            </ul>        
         </section>
     </body>
 </html>

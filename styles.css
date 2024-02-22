@@ -45,7 +45,8 @@ body {
 
 /* MAIN CONTENT*/
 .main-section {
-    margin-left: 260px; 
+    margin-left: 260px;
+    margin-bottom: 40px; 
     padding: 20px;
     list-style-position: inside;
 }
@@ -65,6 +66,39 @@ body {
 .header__p {
     text-indent: 40px;
 }
+.main-section a {
+    text-decoration: none;
+    color: #00e199;
+
+}
+
+.estructura_de_la_página {
+    border-bottom: 4px solid #00e199;
+}
+.estructuras__h3{
+    text-align: center;
+    padding: 5px;
+    margin: 20px 0;
+    border-bottom: 4px solid #00e199;
+    display: inline-block;
+
+    
+
+}
+.estructuraHtml__h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.estructuraHtml {
+    border: 1px solid #00e199;
+    max-width: 15em;
+    padding: 10px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
 
 /* ESTILO PARA LAS LISTAS */
 .titulos-listas {
@@ -107,5 +141,29 @@ body {
         margin-left: 0; 
         padding: 20px; 
     }
+    * {
+        scroll-behavior: auto;
+    }
 }
-
+@media screen and (max-width: 300px) {
+    .tipo-Lista { 
+        margin-left: 20px; 
+        list-style-type: none;
+        height: auto; 
+    }
+    .tipo-Lista li {
+        margin-left: -10px; 
+        padding-left: -10px; 
+    }
+    .parrafos-listas {
+        border-right: none;
+    }
+    * {
+        scroll-behavior: auto;
+    }
+    .justify-text{
+        max-width: 100px;
+        display: none;
+        text-overflow: " [..]";
+    }
+}
