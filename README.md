@@ -1,6 +1,6 @@
-<h1 align='center'>Proyecto final N°2 del curso Responsive Web Design de FreeCodeCamp</h1>
+<h1 align='center'>Proyecto final N°3 del curso Responsive Web Design de FreeCodeCamp</h1>
 
-> Este proyecto es 2/5 para la certificación del curso.
+> Este proyecto es 3/5 para la certificación del curso.
 
 ## Página de documentación técnica sobre HTML:
 Objetivo: Construir una aplicación que sea funcionalmente similar a https://technical-documentation-page.freecodecamp.rocks. No copies este proyecto de demostración.
