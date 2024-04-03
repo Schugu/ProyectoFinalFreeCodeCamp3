@@ -1,11 +1,11 @@
-<h1 align='center'>Proyecto final N°3 del curso Responsive Web Design de FreeCodeCamp</h1>
+<h1 align='center'>🌟 Proyecto final N°3 del curso Responsive Web Design de FreeCodeCamp 🌟</h1>
 
-> Este proyecto es 3/5 para la certificación del curso.
+> Este proyecto es 3/5 para la certificación del curso. :sparkles:
 
-## Página de documentación técnica sobre HTML:
-Objetivo: Construir una aplicación que sea funcionalmente similar a https://technical-documentation-page.freecodecamp.rocks. No copies este proyecto de demostración.
+## Página de documentación técnica sobre HTML 📄
+🎯 Objetivo: Construir una aplicación que sea funcionalmente similar a https://technical-documentation-page.freecodecamp.rocks. No copies este proyecto de demostración.
 
-### Historias de usuario (Descripción): 
+### Historias de usuario (Descripción) 📋
 1. Puedes ver un elemento <code>main</code> con su correspondiente <code>id="main-doc"</code>, el cual abarcará el contenido principal de la página (documentación técnica).
 2. Dentro del elemento <code>#main-doc</code>, se pueden ver varios elementos <code>section</code>, cada uno con la clase <code>main-section</code>. Debe haber un mínimo de cinco.
 3. El primer elemento dentro de cada <code>.main-section</code> debería ser un elemento <code>header</code>, el cual contendrá texto que describa el tema de esa sección.
@@ -22,7 +22,7 @@ Objetivo: Construir una aplicación que sea funcionalmente similar a https://tec
 14. En dispositivos de tamaño normal (portátiles, computadoras de escritorio), el elemento con <code>id="navbar"</code> debe mostrarse en el lado izquierdo de la pantalla y siempre ser visible para el usuario.
 15. Tu documentación técnica debe usar al menos una media query.
 
-### Pruebas (Pruebas Técnicas a pasar): 
+### Pruebas (Pruebas Técnicas a pasar) ✔️🔬 
 - 🧪 Debes tener un elemento <code>main</code> con un <code>id</code> de <code>main-doc</code>.
 - 🧪 Debes tener al menos cinco elementos <code>section</code> con la clase <code>main-section</code>.
 - 🧪 Todos tus elementos <code>.main-section</code> deben ser elementos <code>section</code>.
@@ -49,7 +49,7 @@ Objetivo: Construir una aplicación que sea funcionalmente similar a https://tec
   
 ------------
 
-### Instalación
+### Instalación 🛠️💻
 
 Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 
@@ -71,7 +71,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 
 ------------
 
-### Capturas de pantalla
+### Capturas de pantalla 📸
 <img src='media/CapturaDePantalla1.png' alt='CapturaDePantalla1'>
 <img src='media/CapturaDePantalla2.png' alt='CapturaDePantalla2'>
 <img src='media/CapturaDePantalla3.png' alt='CapturaDePantalla3'>
