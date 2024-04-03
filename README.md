@@ -73,10 +73,4 @@ Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 
 ### Capturas de pantalla 📸
 <img src='media/CapturaDePantalla1.png' alt='CapturaDePantalla1'>
-<img src='media/CapturaDePantalla2.png' alt='CapturaDePantalla2'>
-<img src='media/CapturaDePantalla3.png' alt='CapturaDePantalla3'>
-<img src='media/CapturaDePantalla4.png' alt='CapturaDePantalla4'>
-<img src='media/CapturaDePantalla5.png' alt='CapturaDePantalla5'>
-<img src='media/CapturaDePantalla6.png' alt='CapturaDePantalla6'>
-<img src='media/CapturaDePantalla7.png' alt='CapturaDePantalla7'>
-<img src='media/CapturaDePantalla8.png' alt='CapturaDePantalla8'>
+
